@@ -7,5 +7,7 @@ pageextension 50100 CustomerListExt extends "Customer List"
     trigger OnOpenPage();
     begin
         Message('App published: Hello world');
+        if 5 > 4 then
+            Message('OK');
     end;
 }
